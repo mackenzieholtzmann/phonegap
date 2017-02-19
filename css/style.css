@@ -1,0 +1,67 @@
+* Empty. Add your own CSS if you like */
+
+body {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14;
+}
+
+.title {
+	font-size: 26px !important;
+}
+
+.item h2 {
+	font-size: 22px;
+}
+
+a {
+	font-size: 12px;
+	text-decoration: none;
+	color: #000;
+}
+
+#mainList .pullMsg {
+	text-align: center;
+}
+
+
+img {
+	margin: 0 auto;
+}
+
+.item {
+	line-height: 40px;
+}
+
+ .item-thumbnail-left > img:first-child,
+  .item-thumbnail-left .item-image,
+  .item-thumbnail-left .item-content > img:first-child,
+  .item-thumbnail-left .item-content .item-image {
+  	max-width: 55px;
+  }
+
+  .bar-header {
+  	background-color: #000;
+  	color: #fff;
+  }
+
+  h1 {
+  	color: #fff;
+  }
+
+  .scroll-content {
+  	background-color: #fff;
+  }
+
+   .item-thumbnail-left {
+   	background-color: #ececec;
+   }
+
+   #detailsArea {
+   	background-color: #ececec;
+   	line-height: 30px;
+   }
+
+     #detailsArea h1{
+     	color: #000;
+     }
+

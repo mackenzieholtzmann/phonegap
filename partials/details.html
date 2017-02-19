@@ -1,0 +1,52 @@
+<ion-header-bar classic="bar-dark">
+<h1 class="title">Movie Details</h1>
+</ion-header-bar>
+
+<ion-content id="detailsArea" class="padding">
+
+			<h1>{{movieDetail.title}}</h1>
+
+				<img ng-src="https://image.tmdb.org/t/p/w300{{movieDetail.poster_path}}">
+
+			<p>Release Date: {{movieDetail.release_date}}</p>
+			<p>Average Rating: {{movieDetail.vote_average}}</p>
+			<hr>
+			<p>Overview: {{movieDetail.overview}}</p>
+
+</ion-content>
+
+<ion-footer-bar class="bar-dark">
+	<button class="button button-stable icon-left ion-home" ng-click="goHome()">Return To List</button>
+</ion-footer-bar>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

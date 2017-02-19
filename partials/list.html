@@ -1,0 +1,48 @@
+<ion-header-bar classic="bar-dark">
+
+<h1 class="title">Most Popular Movies</h1>
+</ion-header-bar>
+<ion-content>
+
+<ion-refresher pulling-text="Pull To Refresh" refreshing-text="loading movies...." on-refresh="getMovies()">
+</ion-refresher>
+
+	<ion-list id="mainList">
+		<p class="pullMsg"> Pull down to refresh</p>
+		<ion-item ng-repeat="movie in movies" class="item item-thumbnail-left">
+		<img data-ng-src="https://image.tmdb.org/t/p/w300{{movie.poster_path}}" alt="movie poster">
+			<h2>{{movie.title}}</h2>
+
+			<a href="#details/{{$index}}">Movie Details ></a>
+		</ion-item>
+	</ion-list>
+</ion-content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
